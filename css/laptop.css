@@ -1,0 +1,128 @@
+@media (max-width: 1225px) {
+
+    /* section_2  */
+    .section2 {
+        flex-wrap: wrap;
+        padding: 32px;
+        height: 704px;
+    }
+
+    .section2_pic {
+        display: none;
+    }
+
+    .section2_pic2 {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        width: calc(960 / 1440 * 100%);
+        border-radius: 32px;
+
+    }
+
+    .section2_div {
+        display: flex;
+        column-gap: 80px;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .section2_header {
+        width: calc(440 / 1024 * 100%);
+    }
+
+    .section2_txt {
+        width: calc(440 / 1024 * 100%);
+    }
+}
+
+@media (max-width: 1165px) {
+
+    /* section_3  */
+    .section3 {
+        padding-inline: 32px;
+    }
+
+    @media (max-width: 1065px) {
+
+        /* header  */
+        header {
+            padding-inline: 32px;
+        }
+
+        /* footer  */
+        footer {
+            padding: 40px 445px 40px 32px;
+            flex-direction: column;
+        }
+
+        .footer_title {
+            margin-bottom: 32px;
+        }
+
+        .footernav_div {
+            width: 100%;
+        }
+
+        .contact_div {
+            display: none;
+        }
+    }
+
+
+
+
+    @media (max-width: 882px) {
+
+        /* section_1 */
+        .section1 {
+            height: 320px;
+        }
+
+        .section1_title {
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        /* section_2  */
+        .section2 {
+            padding: 24px;
+        }
+
+        .section2_div {
+            display: block;
+        }
+
+        .section2_header {
+            width: 100%;
+            text-align: center;
+        }
+
+        .section2_txt {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* section_3  */
+        .section3 {
+            padding: 40px 24px;
+        }
+
+        .section3_article {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
+        .section3_div_head {
+            justify-content: center;
+        }
+
+        .section3_text {
+            text-align: center;
+        }
+
+        /* footer  */
+        footer {
+            padding: 32px 301px 32px 24px;
+        }
+    }
